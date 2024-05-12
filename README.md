@@ -1,9 +1,10 @@
 ## Kryptos
 This a harmless ransomware i made during my ransomware cybersecurity project.
-The ransomware generates RSA key pairs and a random key for file encryption, sends private key to the server and  deletes it, encrypts files and the random key.
+The ransomware generates RSA key pairs and a random key for file encryption and  encrypts it with the public key generated, sends private key to the server and  deletes it and encrypts files with the random generated key.
 
 ## Requirements
 Before running the ransomware, ensure the following Python packages are installed:
+
 	- [Cryptography](https://pypi.org/project/cryptography/)
 	- [RSA](https://pypi.org/project/rsa/)
 	- [Colorama](https://pypi.org/project/colorama/)

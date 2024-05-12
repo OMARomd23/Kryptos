@@ -5,9 +5,9 @@ The ransomware generates RSA key pairs and a random key for file encryption and 
 ## Requirements
 Before running the ransomware, ensure the following Python packages are installed:
 
-	- [Cryptography](https://pypi.org/project/cryptography/)
-	- [RSA](https://pypi.org/project/rsa/)
-	- [Colorama](https://pypi.org/project/colorama/)
+  - [Cryptography](https://pypi.org/project/cryptography/)
+  - [RSA](https://pypi.org/project/rsa/)
+  - [Colorama](https://pypi.org/project/colorama/)
  
 
 You will also need to change the ip address on the [client_key_sender.py](https://github.com/OMARomd23/Kryptos/blob/main/client_key_sender.py) file to match the server's ip.

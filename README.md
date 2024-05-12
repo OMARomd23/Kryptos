@@ -19,9 +19,10 @@ The ransomware generates RSA key pairs and a random key for file encryption, sen
 
  Before you can use the decryptor you need to have the private key which is sent to the server during the encryption.
 
-  1. It firsts uses the private key to decrypt the encryption key stored on "encrypted_key.ekey" file.
 
-	2. Then lists all the files ending with ".enctd" which are the files that are encrypted.
+	1. It firsts uses the private key to decrypt the encryption key stored on "encrypted_key.ekey" file.
+ 	
+  	2. Then lists all the files ending with ".enctd" which are the files that are encrypted.
 	
 	3. Decrypts each of the encrypted files and name them 'decrypted_[old file name].
  

@@ -3,7 +3,7 @@ import os
 import time
 import rsa
 
-host = '172.30.202.155'
+host = '127.0.0.1' 
 info_port= 9090
 key_port = 6009
 

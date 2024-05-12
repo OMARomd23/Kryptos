@@ -1,7 +1,17 @@
 ## Kryptos
 This a harmless ransomware i made during my ransomware cybersecurity project.
-
 The ransomware generates RSA key pairs and a random key for file encryption, sends private key to the server and  deletes it, encrypts files and the random key.
+
+## Requirements
+Before running the ransomware, ensure the following Python packages are installed:
+	- [Cryptography](https://pypi.org/project/cryptography/)
+	- [RSA](https://pypi.org/project/rsa/)
+	- [Colorama](https://pypi.org/project/colorama/)
+ 
+
+You will also need to change the ip address on the [client_key_sender.py](https://github.com/OMARomd23/Kryptos/blob/main/client_key_sender.py) file to match the server's ip.
+
+And then run the [server.py](https://github.com/OMARomd23/Kryptos/blob/main/server.py) Before [KRYPTOS.py](https://github.com/OMARomd23/Kryptos/blob/main/KRYPTOS.py).
 
 # How does  the ransomware work step by step:
 

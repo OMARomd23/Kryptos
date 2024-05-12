@@ -1,5 +1,5 @@
 ## Kryptos
-This a harmless ransomware i made during my ransomware cybersecurity project.
+This is a harmless ransomware i made during my ransomware cybersecurity project.
 The ransomware generates RSA key pairs and a random key for file encryption and  encrypts it with the public key generated, sends private key to the server and  deletes it and encrypts files with the random generated key.
 
 ## Requirements
